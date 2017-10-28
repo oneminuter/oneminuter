@@ -1,0 +1,178 @@
+<style type="text/css">
+	.bj{
+		position: relative;
+	}
+	.Left{
+		position: absolute;
+		top:53px;
+	    width:582px;
+		height:548px;
+		background: #1f1f1f;
+		margin-left: 108px;
+	}
+	.Head{
+		width:582px;
+		height:37px;
+		border-bottom: 1px #8c8c8c solid;
+	}
+	.Head-font{
+		width: 120px;
+		height:25px;
+		margin-top:5px;
+		margin-left: 5px;
+		color: #ffffff;
+		font-size: 22px;
+		font-weight: bolder;
+		font-family: Myriad Pro;
+
+	}
+	.Head-p{
+		height: 80px;
+		width:552px;
+		margin-left: 15px;
+		color: #8c8c8c;
+		font-family: Arial;
+		font-size: 12px;
+	}
+	.YourName-div{
+		height: 56px;
+		width:582px;
+	}
+	.YourName{
+		float: left;
+		width:62px;
+		height:15px;
+		margin-left: 15px;
+		color:#ffffff;
+		font-size: 12px;
+		font-family: Arial;
+		
+	}
+	.Required{
+		float: left;
+		width: 55px;
+		height:15px;
+		color:#d20000;
+		font-size:12px ;
+		font-family: Arial;
+		
+	}
+	.mh{
+		width:5px;
+		height:15px;
+		font-size:12px ;
+		font-weight:bold; ;
+		color:#ffffff ;
+		float: left;
+	}
+	.kh{
+		width:8px;
+		height:15px;
+		color: #d20000;
+		font-size: 12px;
+		font-weight: bolder;
+		float: left;
+	}
+	.Input-YourName{
+		float: left;
+		width:582px;
+		height:41px;
+	}
+	.Layer11{
+		width:341px;
+		height:32px;
+		background: url(img/Layer11.png);
+		border: 0px;
+		color:#ffffff;
+		font-size: 15px;
+		margin-left: 15px;
+		margin-top: 5px;
+		float: left;
+	}
+	.Layer13{
+		
+		width: 17px;
+		height:17px;
+		margin-top: 10px;
+		margin-left: 5px;
+		float:left;
+	}
+	.Layer11-font{
+		width:122px;
+		height:27px;
+		font-size:12px ;
+		font-family: Arial;
+		color:#8c8c8c ;
+		margin-top: 10px;
+		margin-left: 5px;
+		float: left;
+	}
+	.Valid-div{
+		height:56px;
+		width:567px;
+		margin-left: 15px;
+	}
+	.Valid_font{
+		width:567px;
+		height:15px;
+		margin-top: 5px;
+	}
+	.Valid_E-Mail-font{
+		float: left;
+		width:115px;
+		height:15px;
+		color:#ffffff;
+		font-size: 12px;
+		font-family: Arial;
+	}
+	.Input_Address{
+		background: url(img/Layer12.png); 
+		float: left;
+		width:341px;
+		height:32px;
+		margin-top: 10px;
+		border: 0px;
+		color:#ffffff;
+		font-size: 15px;
+	}
+	.Message-div{
+		height:200px;
+		width:546px;
+		margin-left: 15px;
+		margin-top: 15px;
+	}
+	.Message-font{
+		float: left;
+		width:544px;
+		height:15px;
+	}
+	.Message{
+		float: left;
+		width:53px;
+		height:15px;
+		color:#ffffff;
+		font-size: 12px;
+		font-family: Arial;
+	}
+	.Input-Message{
+		width:546px;
+		height:179px;
+		background: url(img/Layer14.png);
+		margin-top: 10px;
+		border: 0px;
+		color:#ffffff;
+		font-size: 15px;
+		font-weight: bold;
+		resize:none;
+	}
+	.SUBMIT{
+		width:77px;
+		height:31px;
+		background: #88898a;
+		color:#ffffff;
+		border: 0px;
+		margin-top: 20px;
+		margin-left: 488px;
+		border-radius: 5px;
+	}
+	</style>

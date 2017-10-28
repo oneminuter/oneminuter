@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+    <!--<meta name="viewport" content="(viewport的宽度,范围从200到10,000，默认为980像素)width=device-width, (初始缩放比例)initial-scale=1.0, (允许用户缩放到的最大比例，范围从0到10.0)maximum-scale=1.0, (允许用户缩放到的最小比例，范围从0到10.0)minimum-scale=1.0, ( 用户是否可以手动缩放，值可以是：①yes、 true允许用户缩放；②no、false不允许用户缩放)user-scalable=no" />-->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <!--远以最新的IE版本模式来显示网页-->
+
+    <!--如果只是手机网站，不考虑webapp，可以删除该行以下内容-->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!--启用web app。添加至主屏后，从主屏进入会隐藏地址栏和状态栏-->
+    <!--<meta name=”apple-mobile-web-app-status-bar-style” content=”black-translucent” />-->
+    <!--默认值为default（白色），可以定为black（黑色）和black-translucent（灰色半透明）。  
+注意： 若值为“black-translucent”将会占据页面px位置，浮在页面上方（会覆盖页面20px高度–iphone4和itouch4的Retina屏幕为40px）。-->
+
+    <!-- 如果你的网站不想被剥去外衣，往赤裸的身体上贴广告，就加上下面这行代码 -->
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/i/favicon.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/i/app-icon72x72@2x.png">
+
+    <link rel="alternate icon" type="image/png" href="assets/i/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png">
+    <!--iOS用rel="apple-touch-icon"增加高光光亮的图标,rel="apple-touch-icon-precomposed"设计原图图标，另，android也能读取该图标。这样就能在用户把网页存为书签时，在手机HOME界面创建应用程序样式的图标。该路径需要注意的就是放到将网站的文档根目录下但不是服务器的文档的根目录。图片尺寸可以设定为57*57（px）或者Retina可以定为114*114（px），ipad尺寸为72*72（px）-->
+
+    <link rel="apple-touch-startup-image" media="(device-width: 320px) and (-webkit-device-pixel-ratio: 2)" href="assets/i/startup-640x1096.png">
+    <link rel="apple-touch-startup-image" href="assets/i/startup-640x1096.png" />
+    <!--启动界面的图片。该路径需要注意的就是放到将网站的文档根目录下但不是服务器的文档的根目录。官方规定启动界面的尺寸必须为 320*640（px），原本以为Retina屏幕可以支持双倍，但是不支持，图片显示不出来。-->
+
+    <!--<meta name="apple-touch-fullscreen" content="yes">-->
+    <!--这meta的作用就是删除默认的苹果工具栏和菜单栏。content有两个值”yes”和”no”,当我们需要显示工具栏和菜单栏时，这个行meta就不用加了，默认就是显示。-->
+
+    <!--<meta name=”format-detection” content=”telephone=no” />-->
+    <!--telephone=no禁止了把数字转化为拨号链接，仅苹果手机和平板，测试了下，好像不管用-->
+
+    <!--<meta name="HandheldFriendly" content="true" />-->
+    <!--针对plam和黑莓手机的设置-->
+
+    <!--<meta name="MobileOptimized" content="width">-->
+    <!--这个标记，有说是windows mobile的，也有说其它的，但是似乎没怎么用-->
+
+    <!--[if lt IE 9]>
+    <script src="assets/js/o.html5.js"></script>
+    <![endif]-->
+  <title>404</title>
+
+  <style type="text/css">
+  	*{
+  		margin: 0;
+  		border:0;
+  		padding: 0;
+  	}
+  	body{
+  		background-color: #666;
+  	}
+  	h2{
+  		width:100%;
+  		height:100%;
+  		font-family: "微软雅黑";
+  		font-size: 3em;
+		  margin-top:1em;
+		  text-align: center;
+		  color: #000;
+ 		  text-shadow: 0 1px 1px #fff; 
+ 		  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.18);
+  	}
+  	h1{
+  		text-align: center;
+  		margin-top: 1em;
+  	}
+  	h1 a{
+  		color:#000;
+  		text-shadow: 0 1px 1px #fff; 
+  		text-decoration: none;
+  	}
+  	h1 a:hover{
+  		text-decoration: underline;
+  	}
+    .yx{
+      width:80%;
+      height:auto;
+      display: table;
+      margin:0 auto;
+      margin-top:1em;
+    }
+    .yx img{
+      width:100%;
+      height:auto;    }
+    .sgrz{
+      width:49.5%;
+      display: table;
+      float: left;
+    }
+    .zgxq{
+      width:49.5%;
+      display: table;
+      float: right;
+    }
+  </style>
+  
+</head>
+<body>
+	
+		<h2>404...啊呕! 世界那么大，你访问的页面也不知道去哪了</h2>
+		<h1><a href="javascript:history.back(-1)">返回上一页</a></h1>
+    <div class="yx">
+      <a href="yx/menu/sgrz/index.html" class="sgrz">
+        <img src="img/sgrz404.png" alt="">
+      </a>
+      <a href="yx/menu/zgxq/index.html" class="zgxq">
+        <img src="img/zgxq404.png" alt="">
+      </a>
+    </div>
+</body>
+</html>

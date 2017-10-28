@@ -1,0 +1,141 @@
+*{
+	padding: 0;
+	border: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+}
+#bodyoutid{
+	width: 100%;
+	height: 100%;
+	background: url(../img/bgs/1.jpg);
+}
+.body{
+	width: 100%;
+	height: 768px;
+}
+.top{
+	width: 667px;
+	padding:100px 0 0;
+	margin:0 auto;
+}
+.main{
+	position: relative;
+	width: 100%;
+	height: 433px;
+	background: url(../img/shadow-back.png);
+	background-position: -286px 0;
+	margin-top: 60px;
+}
+.list{
+	position: absolute;
+	top: -40px;
+	padding-top: 10px;
+	width: 100px;
+	height: 511px;
+	background: #ccd3e2;
+	border-radius: 0 10px 10px 0;
+}
+.list li{
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	margin: 0 10px 13px;
+	width: 80px;
+	height: 60px;
+	border: 2px solid #9fcef1;
+	float: left;
+}
+.list li img{
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+.photo{
+	width: 514px;
+	height:399px;
+	position: absolute;
+	left: 129px;
+}
+.login{
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	width: 378px;
+	height: 422px;
+	background: #cdd3de;
+	position: absolute;
+	left: 759px;
+	top: 6px;
+	border-radius: 6px;
+	padding:62px 35px 0;
+}
+.logintop{
+	width: 156px;
+	height: 24px;
+	margin: auto;
+}
+.login01{
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	width: 309px;
+	height: 40px;
+	padding-left: 10px;
+	margin: 32px 0 18px;
+	border-radius: 6px;
+	font-size: 16px;
+	text-align:20px;
+	border: 1px solid #b2bfc7;
+}
+.login02{
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	width: 309px;
+	height: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 0 0 26px;
+	border-radius: 6px;
+	font-size: 16px;
+	text-align:20px;
+	border: 1px solid #b2bfc7;
+}
+.login03{
+	margin-top: 2px;
+}
+.login0301{
+	font-size: 12px;
+	color: #4a576a;
+	display: block;
+	margin: -18px 20px 0;
+}
+.loginin{
+	width: 258px;
+	height: 44px;
+	margin: 27px 30px 28px;
+	border-radius: 40px;
+	border: 1px solid #2480c2;
+	font-size: 17px;
+	font-weight: bold;
+	background: #2894eb;
+	color: white;
+	cursor: pointer;
+}
+.logbot1{
+	font-size: 15px;
+	display: block;
+	float: left;
+}
+.logbot1 a{
+	color: black;
+}
+.logbot1 a:hover{
+	text-decoration: underline;
+}
+

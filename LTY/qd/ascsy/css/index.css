@@ -1,0 +1,1268 @@
+::-webkit-scrollbar{
+	width:7px;
+	height:7px;
+	cursor:pointer;
+}
+::-webkit-scrollbar-track{
+	background-color:rgb(240, 240, 240);
+	border-radius:12px;
+}
+::-webkit-scrollbar-thumb{
+	border-radius:10px;
+	background-color:rgb(41,62,134);
+}
+@media only screen and (min-width: 641px) {
+	.zkj{
+		max-width:640px;
+		margin: 0 auto;
+		height:auto;
+		display: table;
+	}
+
+	*{
+		margin: 0px;
+		border: 0px;
+		padding: 0px;
+		font-family: "微软雅黑";
+	}
+	.kb{
+		width: 100%;
+		height: 1px;
+	}
+	.jzk{
+		width:95%;
+		height: auto;
+		margin: 0 auto;
+	}
+	/*头部css*/
+	.head{
+		width:100%;
+		max-height:120px;
+		height: auto;
+		display: table;
+		padding-bottom: 10px;
+		background-color: #00416F;
+	}
+	.qzxylogo{
+		width:35%;
+		height: auto;
+		float: left;
+		margin-left: 4%;
+		margin-top: 2%;
+	}
+	.qzxylogo img{
+		width: 100%;
+		height:auto;
+	}
+	.headTitle{
+		width:35%;
+		height:auto;
+		float: left;
+		margin-left: 4%;
+		margin-top: 6%;
+	}
+	.headTitle img{
+		width:100%;
+		height:auto;
+	}
+	.headListBtn{
+		width:10%;
+		height:auto;
+		float: left;
+		margin-top: 6%;
+		margin-left: 4%;
+	}
+	.headListBtn img{
+		width:100%;
+		height: auto;
+		cursor: pointer;
+	}
+	/*幻灯片部分css*/
+	/*.Pic{
+		width:100%;
+		height: 520px;
+		background: url(../img/pic1.png)no-repeat;
+	}
+	.PicList1{
+		max-width:65px ;
+		max-height: 10px;
+		width:20%;
+		height: 20%;
+		background-color: #676561;
+		float: left;
+		margin-top: 85%;
+		margin-left: 30%;	
+	}
+		.PicList2{
+		max-width:65px ;
+		max-height: 10px;
+		width:20%;
+		height: 20%;
+		background-color: #D1D1D0;
+		float: left;
+		margin-top: 85%;
+		margin-left: 5%;	
+	}
+		.PicList3{
+		max-width:65px ;
+		max-height: 10px;
+		width:20%;
+		height: 20%;
+		background-color: #676561;
+		float: left;
+		margin-top: 85%;
+		margin-left: 5%;	
+	}*/
+	.Pic{
+		width:100%;
+		height: auto;
+		position: relative;
+	}
+	.Pic ul li{
+		list-style-type: none;
+	}
+	.Pic ul li img{
+		width:100%;
+		height:auto;
+	}
+	.PicListBtn{
+		width: 100%;
+		height:auto;
+		position: absolute;
+		bottom: 10%;
+	}
+	.PicListBtnWk{
+		width:60%;
+		height: auto;
+		margin:0 auto;
+	}
+	.PicListBtn1{
+		width:30%;
+		height: 15px;
+		float: left;
+		margin-left:3%;
+		background-color: #67605E;
+		cursor:pointer;
+	}
+	.PicListBtn2{
+		width:30%;
+		height: 15px;
+		float: left;
+		margin-left:3%;
+		background-color: #CFD0CD;
+		cursor: pointer;
+	}
+	.PicListBtn3{
+		width:30%;
+		height: 15px;
+		float: left;
+		margin-left:3%;
+		background-color: #67605E;
+		cursor: pointer;
+	}
+	
+	/*最新资讯*/
+	.LatestNews{
+		width:95%;
+		height: auto;
+		background: #EAEAEA;
+		margin: 0 auto;
+	}
+	.LatestNewsHead{
+		width:100%;		
+		height:auto;
+		background-color: #FFFFFF;
+	}
+	.zxzx{
+		width:auto ;
+		height: auto;
+		font-family: "微软雅黑";
+		color: black;
+		float: left;
+		margin-top: 2%;
+		font-size: 100%;
+		font-weight: bold;
+	}
+	.LatestNewsFont{
+		width: auto;
+		height: auto;
+		font-family: "微软雅黑";
+		color: black;
+		float: left;
+		margin-top: 3%;
+		margin-left: 3%;
+		font-weight: bold;
+		font-size: 90%;
+	}
+	.LatestNewsHeadMore{
+		width: auto;
+		height: auto;
+		float: right;
+		margin-top: 3%;
+		margin-right: 5%;
+	}
+	.LatestNewsHeadMore img{
+	float: right;
+	}
+	.LatestNewsHeadMore a{
+		text-decoration: none;
+		color:#000000;
+	}
+	.LatestNewsHeadMore a:hover{
+		text-decoration: underline;
+		color: #00416F;
+	}
+	/*.LeftNews{
+		width:45%;
+		height:auto;
+		float: left;
+	}
+	.LeftNews img{
+		width: 100%;
+		height:auto;
+	}
+	.RightNews{
+ 		width:45%;
+		height:auto;
+		float: right;
+	}
+	.RightNews img{
+		width: 100%;
+		height: auto;
+	}*/
+	.LatestNewsContent{
+		width: 100%;
+		height: auto;
+		margin:0 auto;
+		background-color: #FFFFFF;
+		float: left;
+		margin-top: 2%;
+	}
+	.LatestNewsLeftContent{
+		width:48%;
+		height: auto;
+		float: left;
+	}
+	.LatestNewsLeftContent img{
+		width: 100%;
+		height: auto;
+	}
+	.LatestNewsLeftContent a{
+		text-decoration: none;
+		color: #000000;
+		font-family: "微软雅黑";
+	}
+	.LatestNewsLeftContent a h4{
+		width:100%;
+		height: 45px;
+		overflow: hidden;
+	}
+	.LatestNewsLeftContent a p{
+		width: 100%;
+		height: 106px;
+		overflow: hidden;
+		margin-top: 2%;
+	}
+	.LatestNewsRightContent{
+		width:48%;
+		height: auto;
+		float: right;
+	}
+	.LatestNewsRightContent img{
+		width: 100%;
+		height: auto;
+	}
+	.LatestNewsRightContent a{
+		text-decoration: none;
+		color: #000000;
+		font-family: "微软雅黑";
+	}
+	.LatestNewsRightContent a h4{
+		width:100%;
+		height: 45px;
+		overflow: hidden;
+	}
+	.LatestNewsRightContent a p{
+		width:100%;
+		height: 106px;
+		overflow: hidden;		
+		margin-top: 2%;
+	}
+	
+	/*信息中心css*/
+	.infCenter{
+		float: left;
+		width: 100%;
+		height: auto;
+		margin-top: 5%;
+		background-color: #EEEEEE;
+	}
+	.infCenterHead{
+		width: 100%;
+		height: auto;
+		float: left;
+	}
+	.infCenterHeadTitle1{
+		font-family: "微软雅黑";
+		font-size: 100%;
+		color: #000000;
+		float: left;
+		font-weight: bold;
+	}
+	.infCenterHeadTitle2{
+		width: 50%;
+		font-family: "微软雅黑";
+		font-size: 12px;
+		float: left;
+		color: #000000;
+		font-weight: bold;
+		margin-left: 2%;
+	}
+	.infCenterHeadMore{
+		width:auto;
+		height: auto;
+		float: right;
+	}
+	.infCenterHeadMore a{
+		text-decoration: none;
+		color: #000000;
+	}
+	.infCenterHeadMore a:hover{
+		text-decoration: underline;
+		color: #00416F;
+	}
+	.infCenterList{
+		width: 100%;
+		height: auto;
+		float: left;
+		margin-top: 5%;
+	}
+	.infCenterList ul li{
+		list-style-type: none;
+	}
+	.infCenterListDate{
+		width: 25%;
+		height: auto;
+		float: left;
+		background: #00416F;
+		color: #FFFFFF;
+		text-align: center;
+		margin-top: 3%;
+	}
+	.infCenterListDateMonth{
+		width: 100%;
+		height: 40%;
+	}
+	.infCenterListdate{
+		width: 95%;
+		height: 60%;
+		margin: 0 auto;
+		background-color: #FFFFFF;
+		color: #00416F;
+		text-align: center;
+		margin-bottom: 2%;
+	}
+	.infCenterListContent{
+		width: 70%;
+		height:45px;
+		overflow: hidden;
+		color: #000000;
+		font-family: "微软雅黑","黑体";
+		float: right;
+	}
+	.infCenterListContent a{
+		text-decoration: none;
+		color: #000000;
+	}
+	.infCenterListContent a:hover{
+		/*text-decoration: underline;*/
+		color: #00416F;
+	}
+	.infCenterListDateUnderline{
+		width:100%;
+		height:1px;
+		background-color: #00416F;
+		float: left;
+		margin-top: 3%;
+	}
+	
+	/*风采展示css*/
+	.talentShow{
+		width: 100%;
+		height: auto;
+		float: left;
+		margin-top: 3%;
+	}
+	.talentShowHead{
+		width: 100%;
+		height:auto;
+	}
+	.talentShowHeadTitle1{
+		width: auto;
+		height: auto;
+		float: left;
+		color: #000000;
+		font-family: "微软雅黑","黑体";
+		font-weight: bold;
+		font-size: 100%;
+	}
+	.talentShowHeadTitle2{
+		float: left;
+		margin-left: 2%;
+		font-family: "微软雅黑","黑体";
+		font-size: 50%;
+		font-weight: bold;
+		margin-top: 3%;
+		margin-left: 2%;
+	}
+	.talentShowHeadMore{
+		float: right;
+	}
+	.talentShowHeadMore a{
+		text-decoration: none;
+		color:#000000
+	}
+	.talentShowHeadMore a:hover{
+		color: #00416F;
+	}
+	.talentShowContent{
+		width: 100%;
+		height: auto;
+		float: left;
+		margin-top: 5%;
+	}
+	.talentShowContent ul li{
+		list-style-type: none;
+		display: block;
+	}
+	.talentShowContent ul li a{
+		text-decoration: none;
+		color: #000000;
+	}
+	.talentShowContent ul li a:hover{
+		color: #00416F;
+	}
+	.universityLogo{
+		width:25%;
+		height: auto;
+		float: left;
+	}
+	.universityLogo img{
+		width:100%;
+		height: auto;
+	}
+	.talentShowContentFont{
+		width:70%;
+		height:auto;
+		float: right;
+	}
+	.talentShowContentFontTitle{
+		width: 100%;
+		height: 20%;
+	}
+	.talentShowContentFontTitle p{
+		font-size: 30%;
+		width: 100%;
+		height:48px;
+		overflow: hidden;
+	}
+	.talentShowContentUnderline{
+		width: 100%;
+		height: 1px;
+		float: left;
+		background-color: #000000;
+		margin-top: 3%;
+		margin-bottom: 3%;
+	}
+	
+		
+	/*为您服务css*/
+	.serve{
+		width: 100%;
+		height: auto;
+		float: left;
+		background-color: #EEEEEE;
+		margin-top: 5%;
+	}
+	.serveHead{
+		width: 100%;
+		height: 20%;
+		text-align: center;
+		color: #000000;
+		font-family: "微软雅黑"，"黑体";
+		font-weight: bold;
+		font-size: 150%;
+		margin-top: 3%;
+		margin-bottom: 3%;
+	}
+	.serveMap{
+		width: 100%;
+		height: auto;
+	}
+	.serveMap img{
+		width: 100%;
+		height: auto;
+	}
+	
+	/*联系电话*/
+	.call{
+		width: 100%;
+		height: auto;
+		float: left;
+	}
+	.callHead{
+		font-family: "微软雅黑","黑体";
+		font-size: 150%;
+		font-weight: bold;
+		text-align: center;
+		margin-top: 3%;
+	}
+	.callHeadUnderline{
+		width: 100%;
+		height: 1px;
+		background-color: #B9B9B9;
+		float: left;
+		margin-top: 3%;
+	}
+	.callLists{
+		width:95%;
+		height: auto;
+		margin: 0 auto;
+		margin-top: 8%;
+		
+	}
+	.callLists ul li{
+		list-style-type: none;
+		display: block;
+		height: 69px;
+		margin-bottom: 5%;
+	}
+	.callLogo{
+		width: 20%;
+		height: 57%;
+		float: left;
+	}
+	.callLogo img{
+		width: 100%;
+		height: auto;
+		max-width: 69px;
+	}
+	.callInf{
+		width: 75%;
+		height: 95%;
+		overflow: hidden;
+		float: right;
+		cursor: pointer;
+		font-size: 30%;
+	}
+	
+	/*footer底部css*/
+	.footer{
+		width: 100%;
+		height: auto;
+		background: #01416F;
+		float: left;
+	}
+	.footerQzxyLogo{
+		width: 100%;
+		height: auto;
+		margin-top: 5%;
+	}
+	.footerQzxyLogo img{
+		width: 60%;
+		height: auto;
+		display: block;
+		margin: 0 auto;
+	}
+	.footerLine1{
+		width: 90%;
+		height: 1px;
+		background-color: #7171FF;
+		margin: 0 auto;
+		margin-top: 10%;
+		margin-bottom: 5%;
+	}
+	.footerLink{
+		width: 90%;
+		height: auto;
+		margin: 0 auto;
+	}
+	.footerLinkLeft{
+		width: 45%;
+		height: auto;
+		float: left;
+	}
+	.footerLinkLeft ul li{
+		list-style-type: none;
+		display: block;
+		margin-bottom: 5%;
+	}
+	.footerLinkLeft a{
+		text-decoration: none;
+		color: #7171FF;
+	}
+	.footerLinkLeft a:hover{
+		color: #CFD0CD;
+	}
+	.footerLinkRight{
+		width:50%;
+		height: auto;
+		float: right;
+		border-left: 1px solid #7171FF;
+	}
+	.footerLinkRight ul li{
+		list-style-type: none;
+		cursor: pointer;
+		display: block;
+		margin-bottom: 5%;
+	}
+	.footerInfImg{
+		width: 10%;
+		height: auto;
+		float: left;
+		margin-left: 2%;
+	}
+	.footerLinkRight ul li p{
+		color:#7171FF;
+		font-size: 10%;
+		width:87%;
+		height:18px;
+		margin-left: 4%;
+		overflow: hidden;
+	}
+	.footerLine2{
+		width: 100%;
+		height: 1px;
+		margin: 0 auto;
+		margin-top: 5%;
+		margin-bottom: 5%;
+		background-color: #2F2FFF;
+		float: left;
+	}
+	.outLink{
+		width: 50%;
+		height: auto;
+		margin-left: 30%;
+		float:left;
+	}
+	.outLink ul li{
+		display: block;
+		float: left;
+		margin-left: 5%;
+	}
+	.copyRight{
+		width: 100%;
+		height: auto;
+		font-size: 5%;
+		color: #7171FF;
+		float: left;
+		margin: 0 auto;
+	}
+	.zztj{
+		width:15%;
+		height: auto;
+		float: left;
+		margin-left: 40%;
+	}
+
+}
+@media only screen and (max-width: 640px) {
+	*{
+		margin: 0px;
+		border: 0px;
+		padding: 0px;
+		font-family: "微软雅黑";
+	}
+	.zkj{
+		width:100%;
+		height:auto;
+		display: table;
+		margin:0 auto;
+	}
+	.kb{
+		width: 100%;
+		height: 1px;
+	}
+	.jzk{
+		width:95%;
+		height: auto;
+		margin: 0 auto;
+	}
+	/*头部css*/
+	.head{
+		width:100%;
+		max-height:120px;
+		height: auto;
+		display: table;
+		padding-bottom: 10px;
+		background-color: #00416F;
+	}
+	.qzxylogo{
+		width:35%;
+		height: auto;
+		float: left;
+		margin-left: 4%;
+		margin-top: 2%;
+	}
+	.qzxylogo img{
+		width: 100%;
+		height:auto;
+	}
+	.headTitle{
+		width:35%;
+		height:auto;
+		float: left;
+		margin-left: 4%;
+		margin-top: 6%;
+	}
+	.headTitle img{
+		width:100%;
+		height:auto;
+	}
+	.headListBtn{
+		width:10%;
+		height:auto;
+		float: left;
+		margin-top: 6%;
+		margin-left: 4%;
+	}
+	.headListBtn img{
+		width:100%;
+		height: auto;
+		cursor: pointer;
+	}
+	.Pic{
+		width:100%;
+		height: auto;
+		position: relative;
+	}
+	.Pic ul li{
+		list-style-type: none;
+	}
+	.Pic ul li img{
+		width:100%;
+		height:auto;
+	}
+	.PicListBtn{
+		width: 100%;
+		height:auto;
+		position: absolute;
+		bottom: 10%;
+	}
+	.PicListBtnWk{
+		width:60%;
+		height: auto;
+		margin:0 auto;
+	}
+	.PicListBtn1{
+		width:30%;
+		height: 15px;
+		float: left;
+		margin-left:3%;
+		background-color: #67605E;
+		cursor:pointer;
+	}
+	.PicListBtn2{
+		width:30%;
+		height: 15px;
+		float: left;
+		margin-left:3%;
+		background-color: #CFD0CD;
+		cursor: pointer;
+	}
+	.PicListBtn3{
+		width:30%;
+		height: 15px;
+		float: left;
+		margin-left:3%;
+		background-color: #67605E;
+		cursor: pointer;
+	}
+	
+	/*最新资讯*/
+	.LatestNews{
+		width:95%;
+		height: auto;
+		background: #EAEAEA;
+		margin: 0 auto;
+	}
+	.LatestNewsHead{
+		width:100%;		
+		height:auto;
+		background-color: #FFFFFF;
+	}
+	.zxzx{
+		width:auto ;
+		height: auto;
+		font-family: "微软雅黑";
+		color: black;
+		float: left;
+		margin-top: 2%;
+		font-size: 100%;
+		font-weight: bold;
+	}
+	.LatestNewsFont{
+		width: auto;
+		height: auto;
+		font-family: "微软雅黑";
+		color: black;
+		float: left;
+		margin-top: 3%;
+		margin-left: 3%;
+		font-weight: bold;
+		font-size: 90%;
+	}
+	.LatestNewsHeadMore{
+		width: auto;
+		height: auto;
+		float: right;
+		margin-top: 3%;
+		margin-right: 5%;
+	}
+	.LatestNewsHeadMore img{
+	float: right;
+	}
+	.LatestNewsHeadMore a{
+		text-decoration: none;
+		color:#000000;
+	}
+	.LatestNewsHeadMore a:hover{
+		text-decoration: underline;
+		color: #00416F;
+	}
+	.LatestNewsContent{
+		width: 100%;
+		height: auto;
+		margin:0 auto;
+		background-color: #FFFFFF;
+		float: left;
+		margin-top: 2%;
+	}
+	.LatestNewsLeftContent{
+		width:48%;
+		height: auto;
+		float: left;
+	}
+	.LatestNewsLeftContent img{
+		width: 100%;
+		height: auto;
+	}
+	.LatestNewsLeftContent a{
+		text-decoration: none;
+		color: #000000;
+		font-family: "微软雅黑";
+	}
+	.LatestNewsLeftContent a h4{
+		width:100%;
+		height: 45px;
+		overflow: hidden;
+	}
+	.LatestNewsLeftContent a p{
+		width: 100%;
+		height: 106px;
+		overflow: hidden;
+		margin-top: 2%;
+	}
+	.LatestNewsRightContent{
+		width:48%;
+		height: auto;
+		float: right;
+	}
+	.LatestNewsRightContent img{
+		width: 100%;
+		height: auto;
+	}
+	.LatestNewsRightContent a{
+		text-decoration: none;
+		color: #000000;
+		font-family: "微软雅黑";
+	}
+	.LatestNewsRightContent a h4{
+		width:100%;
+		height: 45px;
+		overflow: hidden;
+	}
+	.LatestNewsRightContent a p{
+		width:100%;
+		height: 106px;
+		overflow: hidden;		
+		margin-top: 2%;
+	}
+	
+	/*信息中心css*/
+	.infCenter{
+		float: left;
+		width: 100%;
+		height: auto;
+		margin-top: 5%;
+		background-color: #EEEEEE;
+	}
+	.infCenterHead{
+		width: 100%;
+		height: auto;
+		float: left;
+	}
+	.infCenterHeadTitle1{
+		font-family: "微软雅黑";
+		font-size: 100%;
+		color: #000000;
+		float: left;
+		font-weight: bold;
+	}
+	.infCenterHeadTitle2{
+		width: 50%;
+		font-family: "微软雅黑";
+		font-size: 12px;
+		float: left;
+		color: #000000;
+		font-weight: bold;
+		margin-left: 2%;
+	}
+	.infCenterHeadMore{
+		width:auto;
+		height: auto;
+		float: right;
+	}
+	.infCenterHeadMore a{
+		text-decoration: none;
+		color: #000000;
+	}
+	.infCenterHeadMore a:hover{
+		text-decoration: underline;
+		color: #00416F;
+	}
+	.infCenterList{
+		width: 100%;
+		height: auto;
+		float: left;
+		margin-top: 5%;
+	}
+	.infCenterList ul li{
+		list-style-type: none;
+	}
+	.infCenterListDate{
+		width: 25%;
+		height: auto;
+		float: left;
+		background: #00416F;
+		color: #FFFFFF;
+		text-align: center;
+		margin-top: 3%;
+	}
+	.infCenterListDateMonth{
+		width: 100%;
+		height: 40%;
+	}
+	.infCenterListdate{
+		width: 95%;
+		height: 60%;
+		margin: 0 auto;
+		background-color: #FFFFFF;
+		color: #00416F;
+		text-align: center;
+		margin-bottom: 2%;
+	}
+	.infCenterListContent{
+		width: 70%;
+		height:45px;
+		overflow: hidden;
+		color: #000000;
+		font-family: "微软雅黑","黑体";
+		float: right;
+	}
+	.infCenterListContent a{
+		text-decoration: none;
+		color: #000000;
+	}
+	.infCenterListContent a:hover{
+		/*text-decoration: underline;*/
+		color: #00416F;
+	}
+	.infCenterListDateUnderline{
+		width:100%;
+		height:1px;
+		background-color: #00416F;
+		float: left;
+		margin-top: 3%;
+	}
+	
+	/*风采展示css*/
+	.talentShow{
+		width: 100%;
+		height: auto;
+		float: left;
+		margin-top: 3%;
+	}
+	.talentShowHead{
+		width: 100%;
+		height:auto;
+	}
+	.talentShowHeadTitle1{
+		width: auto;
+		height: auto;
+		float: left;
+		color: #000000;
+		font-family: "微软雅黑","黑体";
+		font-weight: bold;
+		font-size: 100%;
+	}
+	.talentShowHeadTitle2{
+		float: left;
+		margin-left: 2%;
+		font-family: "微软雅黑","黑体";
+		font-size: 50%;
+		font-weight: bold;
+		margin-top: 3%;
+		margin-left: 2%;
+	}
+	.talentShowHeadMore{
+		float: right;
+	}
+	.talentShowHeadMore a{
+		text-decoration: none;
+		color:#000000
+	}
+	.talentShowHeadMore a:hover{
+		color: #00416F;
+	}
+	.talentShowContent{
+		width: 100%;
+		height: auto;
+		float: left;
+		margin-top: 5%;
+	}
+	.talentShowContent ul li{
+		list-style-type: none;
+		display: block;
+	}
+	.talentShowContent ul li a{
+		text-decoration: none;
+		color: #000000;
+	}
+	.talentShowContent ul li a:hover{
+		color: #00416F;
+	}
+	.universityLogo{
+		width:25%;
+		height: auto;
+		float: left;
+	}
+	.universityLogo img{
+		width:100%;
+		height: auto;
+	}
+	.talentShowContentFont{
+		width:70%;
+		height:auto;
+		float: right;
+	}
+	.talentShowContentFontTitle{
+		width: 100%;
+		height: 20%;
+	}
+	.talentShowContentFontTitle p{
+		font-size: 30%;
+		width: 100%;
+		height:48px;
+		overflow: hidden;
+	}
+	.talentShowContentUnderline{
+		width: 100%;
+		height: 1px;
+		float: left;
+		background-color: #000000;
+		margin-top: 3%;
+		margin-bottom: 3%;
+	}
+	
+		
+	/*为您服务css*/
+	.serve{
+		width: 100%;
+		height: auto;
+		float: left;
+		background-color: #EEEEEE;
+		margin-top: 5%;
+	}
+	.serveHead{
+		width: 100%;
+		height: 20%;
+		text-align: center;
+		color: #000000;
+		font-family: "微软雅黑"，"黑体";
+		font-weight: bold;
+		font-size: 150%;
+		margin-top: 3%;
+		margin-bottom: 3%;
+	}
+	.serveMap{
+		width: 100%;
+		height: auto;
+	}
+	.serveMap img{
+		width: 100%;
+		height: auto;
+	}
+	
+	/*联系电话*/
+	.call{
+		width: 100%;
+		height: auto;
+		float: left;
+	}
+	.callHead{
+		font-family: "微软雅黑","黑体";
+		font-size: 150%;
+		font-weight: bold;
+		text-align: center;
+		margin-top: 3%;
+	}
+	.callHeadUnderline{
+		width: 100%;
+		height: 1px;
+		background-color: #B9B9B9;
+		float: left;
+		margin-top: 3%;
+	}
+	.callLists{
+		width:95%;
+		height: auto;
+		margin: 0 auto;
+		margin-top: 8%;
+		
+	}
+	.callLists ul li{
+		list-style-type: none;
+		display: block;
+		height: 69px;
+		margin-bottom: 5%;
+	}
+	.callLogo{
+		width: 20%;
+		height: 57%;
+		float: left;
+	}
+	.callLogo img{
+		width: 100%;
+		height: auto;
+		max-width: 69px;
+	}
+	.callInf{
+		width: 75%;
+		height: 95%;
+		overflow: hidden;
+		float: right;
+		cursor: pointer;
+		font-size: 30%;
+	}
+	
+	/*footer底部css*/
+	.footer{
+		width: 100%;
+		height: auto;
+		background: #01416F;
+		float: left;
+	}
+	.footerQzxyLogo{
+		width: 100%;
+		height: auto;
+		margin-top: 5%;
+	}
+	.footerQzxyLogo img{
+		width: 60%;
+		height: auto;
+		display: block;
+		margin: 0 auto;
+	}
+	.footerLine1{
+		width: 90%;
+		height: 1px;
+		background-color: #7171FF;
+		margin: 0 auto;
+		margin-top: 10%;
+		margin-bottom: 5%;
+	}
+	.footerLink{
+		width: 90%;
+		height: auto;
+		margin: 0 auto;
+	}
+	.footerLinkLeft{
+		width: 45%;
+		height: auto;
+		float: left;
+	}
+	.footerLinkLeft ul li{
+		list-style-type: none;
+		display: block;
+		margin-bottom: 5%;
+	}
+	.footerLinkLeft a{
+		text-decoration: none;
+		color: #7171FF;
+	}
+	.footerLinkLeft a:hover{
+		color: #CFD0CD;
+	}
+	.footerLinkRight{
+		width:50%;
+		height: auto;
+		float: right;
+		border-left: 1px solid #7171FF;
+	}
+	.footerLinkRight ul li{
+		list-style-type: none;
+		cursor: pointer;
+		display: block;
+		margin-bottom: 5%;
+	}
+	.footerInfImg{
+		width: 10%;
+		height: auto;
+		float: left;
+		margin-left: 2%;
+	}
+	.footerLinkRight ul li p{
+		color:#7171FF;
+		font-size: 10%;
+		width:87%;
+		height:18px;
+		margin-left: 4%;
+		overflow: hidden;
+	}
+	.footerLine2{
+		width: 100%;
+		height: 1px;
+		margin: 0 auto;
+		margin-top: 5%;
+		margin-bottom: 5%;
+		background-color: #2F2FFF;
+		float: left;
+	}
+	.outLink{
+		width: 50%;
+		height: auto;
+		margin-left: 30%;
+		float:left;
+	}
+	.outLink ul li{
+		display: block;
+		float: left;
+		margin-left: 5%;
+	}
+	.copyRight{
+		width: 100%;
+		height: auto;
+		font-size: 5%;
+		color: #7171FF;
+		float: left;
+		margin: 0 auto;
+	}
+	.zztj{
+		width:15%;
+		height: auto;
+		float: left;
+		margin-left: 40%;
+	}
+}/*@media*/
+

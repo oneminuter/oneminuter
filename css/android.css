@@ -1,0 +1,147 @@
+::-webkit-scrollbar{
+	width: 10px;
+	height: 10px;
+}
+/*滚动条轨道*/
+::-webkit-scrollbar-track{
+	background-color: rgba(0, 0, 0, 0.2);
+}
+/*滚动条滑块*/
+::-webkit-scrollbar-thumb{
+	background-color:rgba(0, 0, 0, 0.4);
+	border-radius: 13px;
+}
+
+*{
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+	font-family: "microsoft yahei";
+}
+body{
+	min-width: 310px;
+	background-color: rgba(0, 0, 0, 0.05);
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.max_width{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+/*content_top start*/
+.content_top{
+	width: 100%;
+	height: 250px;
+	background-image: url(../img/androidTopBg.jpg);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.cont_top_nav{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -86px;
+	/*margin-left: -50%;*/
+	text-align: center;
+}
+.top_nav_icon{
+	width: 2.7em;
+    height: 2.7em;
+    text-align: center;
+    line-height: 2.7em;
+    border-radius: 50%;
+    font-size: 2em;
+    color: rgba(20, 0, 0, 0.7);
+    -webkit-transition: all 0.3s;
+    transition: all 0.5s;
+}
+.top_nav_icon:hover,.top_nav_icon:focus{
+	color: rgba(255, 255, 255, 1);
+}
+/*content_top end*/
+
+/*content start*/
+.content{
+	width: 100%;
+	height: auto;
+	min-height: 630px;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: center 5px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.content_title{
+	width: 100%;
+	height: 50px;
+	background-color: rgba(255, 255, 255, 1);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+	padding: 0px 15px;
+	color: rgba(14, 144, 210, 1);
+}
+.content_icon, .icon-more{
+	font-size: 1.25em;
+	line-height: 50px;
+}
+.more{
+	font-size: 0.875em;
+	float: right;
+}
+.am-list li{
+	border: 0px solid #dedede;
+	padding: 0px 15px;
+}
+.list_item{
+	display: inline-block;
+	width: 68%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+.am-list li a{
+	font-size: 0.875em;
+	color: rgba(0 , 0, 0, 0.5);
+}
+.am-list li a:hover{
+	color: rgba(0 , 0, 0, 0.8);
+}
+.am-badge{
+	float: right;
+	background-color: rgba(0, 0,  0, 0);
+	color: rgba(0, 0, 0, 0.3);
+}
+/*content end*/
+
+/*返回顶部 start*/
+.go_top{
+	width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0,0.1);
+    position: fixed;
+    right: 10px;
+    bottom: 60px;
+    z-index: 1;
+    text-align: center;
+    cursor: pointer;
+}
+.go_top i{
+	font-size: 2em !important;
+	line-height: 50px;
+    color: rgba(229, 77, 38, 1);
+}
+/*返回顶部 end*/
+
+@media only screen and (max-width: 847px){
+	.content_top{
+		background-size: auto 100%;
+		background-position: center 0px;
+	}
+}

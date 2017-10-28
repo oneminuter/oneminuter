@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>鼠标阴影跟随</title>
+	<link rel="stylesheet" href="css/style.css">
+
+	<script src="js/main.js"></script>
+
+    <script type="text/javascript" src="js/jquery-1.11.2.js"></script>
+     <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+     
+	
+</head>
+<body>
+
+    <h1 class="demo_text" id="font">阴影跟随</h1>
+    
+
+  <!--  <input class="test" id="test" type="button">  -->
+    <div id="a"></div>
+    <div id="b"></div>
+
+
+<script type="text/javascript">
+/*
+document.getElementById("demo").onclick=function(e){
+    var eve = e || window.event;
+    var x = eve.clientX,  // 相对于客户端的X坐标
+        y = eve.clientY,  // 相对于客户端的Y坐标
+        x1 = eve.screenX,  // 相对于计算机屏幕的X坐标
+        y1 = eve.screenY;  // 相对于计算机屏幕的Y坐标
+        
+    alert(
+        "相对客户端的坐标：\n"+
+        "x = "+x+"\n"+
+        "y = "+y+"\n\n"+
+        "相对屏幕的坐标：\n"+
+        "x = "+x1+"\n"+
+        "y = "+y1
+    );
+}
+*/
+/*
+var a = 10;
+var b = 10;
+var c = 10;
+
+var x = a + "px";
+var y = b + "px";
+var r = c + "px";
+var color = "blue"
+$("#font").css("text-shadow", x+" "+y+" "+r+" "+color);
+*/
+/*
+$("#font").css("text-shadow", {
+        color: "blue",
+        top: "10px",
+        left: "20px",
+        radius: "10px"
+    });
+*/
+
+//获取鼠标坐标
+/*
+$(function(){
+    $(document.body).mousemove(function(){
+        return $("#a").text(event.x), $("#b").text(event.y);
+    });
+});
+*/
+
+</script>
+
+<!--
+<div class="bigbox">
+    <div class="smallbox">大发光火</div>
+</div>
+	<input type="file">
+-->
+</body>
+</html>

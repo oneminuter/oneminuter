@@ -1,0 +1,70 @@
+*{
+	padding: 0px;
+	border:0px;
+	margin:0px;
+}
+body{
+	background-color: #666;
+}
+.demo_text {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  width: 50%;
+
+  display: table;
+  height: auto;
+
+  color: #fcfcfc;
+  text-transform: uppercase;
+  text-align: center;
+
+  font-size: 8em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+
+  letter-spacing: -0.02em;
+  line-height: 1.2em;
+
+  text-shadow:2px 2px 5px red;
+
+  
+}
+
+.test{
+  width:100px;
+  height:100px;
+  background-color: black;
+  color:#fff;
+  font-size: 2em;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  transition: all .2s ease;
+}
+.test:hover{
+  transform: rotate(135deg);
+}
+.bigbox{
+  margin:auto;
+  width:400px;
+  height:400px;
+  background-color: red;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+.smallbox{
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  margin:auto;
+  width:200px;
+  height:200px;
+  vertical-align: middle;
+  color:#fff;
+  background-color: blue;
+}
+#a, #b{
+  width:50px;
+  height: 50px;
+  color: red;
+}

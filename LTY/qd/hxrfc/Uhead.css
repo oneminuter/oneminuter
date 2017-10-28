@@ -1,0 +1,77 @@
+.Uhead{
+	width:1200px;
+	height:252px;
+}
+.Meihua{
+	margin-top: -70px;
+	width:297px;
+	height:252px;
+	background: url(img/meihua.png);
+	float: left;
+}
+.DXJL{
+	width:236px;
+	height:252px;
+	background: url(img/DXJL.png)no-repeat;
+	margin-top: -70px;
+	margin-left: -120px;
+	float: left;
+}
+.DXJL-font{
+	width:14px;
+	height:71px;
+	float: left;
+	background: url(img/DXJLZT.png)no-repeat;
+}
+.HXRFC{
+	width:349px;
+	height:131px;
+	float: left;
+	background: url(img/HXRFC.png);
+	margin-left: 50px;
+}
+.FHSY{
+     width:180px;
+     height:35px;
+     float: left;
+     background:url(img/FHSY1.png);
+     margin-left: 80px;
+     display:block;
+}
+.FHSY:hover a{
+     width:180px;
+     height:35px;
+     float: left;
+     background:url(img/FHSY2.png);/*替换的图片地址*/
+     display:block;
+}
+.WXTSK{
+	width:1200px;
+	height:20px;
+	float: left;
+}
+.WXTS{
+	width: 95px;
+	height: 20px;
+	font-family: 方正大标宋简体;
+	font-weight: bolder;
+	font-size: 20px;
+	color: #000000;
+	float: left;
+	margin-left: 230px;
+}
+.WXTS1{
+	width:1105px;
+	height:20px;
+	font-size:18px ;
+	font-family:华文新魏 ;
+	color:#000000;
+	margin-top: 2px;
+}
+.WXTS1 span{
+	color:#960606;
+}
+.WXTS1 span:hover{
+	color:#960606;
+    text-decoration: underline;
+}

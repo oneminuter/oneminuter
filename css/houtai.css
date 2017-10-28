@@ -1,0 +1,193 @@
+::-webkit-scrollbar{
+	width: 10px;
+	height: 10px;
+}
+/*滚动条轨道*/
+::-webkit-scrollbar-track{
+	background-color: rgba(0, 0, 0, 0.2);
+}
+/*滚动条滑块*/
+::-webkit-scrollbar-thumb{
+	background-color:rgba(0, 0, 0, 0.4);
+	border-radius: 13px;
+}
+
+*{
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+	font-family: "microsoft yahei";
+}
+body{
+	min-width: 310px;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.max_width{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+/*content_top start*/
+.content_top{
+	width: 100%;
+	height: auto;
+	max-height: 300px;
+	background-image: url(../img/houtai.jpg);
+	background-repeat: no-repeat;
+	background-size:100% auto ;
+	background-position: center center;
+}
+.content_top_nav{
+    	padding-left: 0rem;
+    	padding-right: 0rem;
+}
+.content_top_nav a{
+	display: block;
+    width: 85px;
+    margin: 0 auto;
+    padding: 0px 15px;
+    text-align: center;
+    line-height: 35px;
+    color: rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+    -webkit-transition: all 0.1s;
+    transition: all 0.3s;
+    outline: 2px solid rgba(255, 255, 255, 0.5);
+}
+.content_top_nav a:hover,.content_top_nav a:focus{
+	color: rgba(76, 175, 80, 1);
+	outline: 2px solid rgba(76, 175, 80, 1);
+}
+.content_top .am-u-sm-3{
+	text-align: center;
+	margin: 10% 0px;
+}
+/*content_top end*/
+
+/*conntent start*/
+.content_block{
+	min-height: 400px;
+	position: relative;
+	padding-top: 25px;
+}
+.gray_bg{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+[class*=am-u-]+[class*=am-u-]:last-child {
+    float: left;
+}
+.cont_icon{
+	display: block;
+    width: 60px;
+    height: 50px;
+    background-color: rgba(254, 221, 85, 1);
+    color: rgba(229, 77, 38, 1);
+    font-size: 2em;
+    position: absolute;
+    left: 50%;
+    top: -25px;
+    margin-left: -40px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+.icon-more{
+	color: rgba(229, 77, 38, 0.6);
+    font-size: 1.125em;
+    position: absolute;
+    top: -14px;
+    right: 15px;
+}
+.icon-more:hover,.icon-more:focus{
+	color: rgba(229, 77, 38, 1);
+}
+.am-g .am-g {
+    margin-right: 0px;
+}
+.cont_item li a{
+	color: rgba(0, 0, 0, 0.5);
+}
+.cont_item li a:hover{
+	color: rgba(0, 0, 0, 0.7);
+	text-decoration: underline;
+}
+.jre_ide{
+	margin-top: 0px;
+}
+.jre_ide ul{
+	padding-left: 3px;
+}
+.icon-eclipse,
+.icon-tomcat,
+.icon-jre,
+.icon-jre_package{
+	font-size: 1.5em;
+	color: rgba(0, 0, 0 , 0.5);
+}
+.icon-eclipse span,
+.icon-tomcat span,
+.icon-jre span,
+.icon-jre_package span{
+	font-size: 0.55em;
+	color: rgba(0, 0, 0 , 0.5);
+}
+.icon-eclipse:hover,
+.icon-tomcat:hover,
+.icon-jre:hover,
+.icon-jre_package:hover,
+
+.icon-eclipse span:hover,
+.icon-tomcat span:hover,
+.icon-jre span:hover,
+.icon-jre_package span:hover,
+
+.icon-eclipse:focus,
+.icon-tomcat:focus,
+.icon-jre:focus,
+.icon-jre_package:focus,
+
+.icon-eclipse span:focus,
+.icon-tomcat span:focus,
+.icon-jre span:focus
+.icon-jre_package span:focus{
+	color: rgba(0, 0, 0 , 0.6);
+}
+.icon-eclipse span:hover,
+.icon-tomcat span:hover,
+.icon-jre span:hover,
+.icon-jre_package span:hover{
+	text-decoration: underline;
+}
+/*conntent end*/
+
+/*返回顶部 start*/
+.go_top{
+	width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0,0.1);
+    position: fixed;
+    right: 10px;
+    bottom: 60px;
+    z-index: 1;
+    text-align: center;
+    cursor: pointer;
+}
+.go_top i{
+	font-size: 2em !important;
+	line-height: 50px;
+    color: rgba(229, 77, 38, 1);
+}
+/*返回顶部 end*/
+@media only screen and (max-width:407px) {
+	.content_top_nav a{
+		display: block;
+	    margin: 0 auto;
+	    width: 88%;
+	    padding: 0px;
+	    line-height: 35px;
+	}
+}

@@ -1,0 +1,117 @@
+<style type="text/css">
+.bj{
+	position: relative;
+}
+.B-bj{
+	position: absolute;
+	width:425px;
+	height:510px;
+	background-color: #1f1f1f;
+	top: 330px;
+	right:122px;
+}
+.Bhead{
+	height:39px;
+	width:410px;
+	border-bottom: 1px solid #8c8c8c;
+	margin-left: 15px;
+}
+.Bhead-font{
+	width:123px;
+	height:28px;
+	color: #ffffff;
+	font-size:22px;
+	font-family:Myriad Pro ;
+	font-weight: bolder;
+}
+.BUsername-div{
+		height: 56px;
+		width:410px;
+		margin-left: 15px;
+}
+.BUsername{
+		float: left;
+		width:62px;
+		height:15px;
+		color:#ffffff;
+		font-size: 12px;
+		font-family: Arial;		
+}		
+.BInput-Username{
+		float: left;
+		width:410px;
+		height:41px;
+}
+.Layer31{
+		width:373px;
+		height:32px;
+		background: url(img/Layer21.png);
+		border: 0px;
+		color:#ffffff;
+		font-size: 15px;
+		margin-top: 5px;
+		float: left;
+}
+.div-Bottom{
+		height:56px;
+		width:410px;
+		margin-left: 15px;
+}
+.BPassword_font{
+		width:410px;
+		height:15px;
+		margin-top: 5px;
+}
+.BPassword{
+		float: left;
+		width:60px;
+		height:15px;
+		color:#ffffff;
+		font-size: 12px;
+		font-family: Arial;
+}
+.Input_BPassword{
+		background: url(img/Layer21.png); 
+		float: left;
+		width:373px;
+		height:32px;
+		margin-top: 10px;
+		border: 0px;
+		color:#ffffff;
+		font-size: 15px;
+}
+.Re-Type{
+		float: left;
+		width:130px;
+		height:15px;
+		color:#ffffff;
+		font-size: 12px;
+		font-family: Arial;
+}
+.BE-Mail{
+		float: left;
+		width:40px;
+		height:15px;
+		color:#ffffff;
+		font-size: 12px;
+		font-family: Arial;
+}
+.Phone{
+		float: left;
+		width:40px;
+		height:15px;
+		color:#ffffff;
+		font-size: 12px;
+		font-family: Arial;
+}
+.BSUBMIT{
+		width:77px;
+		height:31px;
+		background: #88898a;
+		color:#ffffff;
+		border: 0px;
+		margin-top: 15px;
+		margin-left:310px;
+		border-radius: 5px;
+}
+</style>

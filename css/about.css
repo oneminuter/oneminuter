@@ -1,0 +1,95 @@
+::-webkit-scrollbar{
+	width: 10px;
+	height: 10px;
+}
+/*滚动条轨道*/
+::-webkit-scrollbar-track{
+	background-color: rgba(0, 0, 0, 0.2);
+}
+/*滚动条滑块*/
+::-webkit-scrollbar-thumb{
+	background-color:rgba(0, 0, 0, 0.4);
+	border-radius: 13px;
+}
+
+*{
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+	font-family: "microsoft yahei";
+}
+body{
+	min-width: 310px;
+	background-image: url(../img/bg.gif);
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.max_width{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+/*content start*/
+.content{
+	text-align: center;
+	height: auto;
+}
+.photo{
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
+	background-image: url(../img/logo1.png);
+	background-position:center center;
+	border-radius: 50%;
+	background-size: 100% auto;
+	border: 2px solid rgba(0, 200, 0, 1);
+	margin-top: 10px;
+}
+.content h1, .content h2{
+	color: rgba(255, 255, 255, 1);
+}
+.basecInfo{
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.05);
+}
+.title{
+	display: table;
+	width: 100%;
+	border-bottom:1px solid rgba(0, 0, 0, 1) ;
+}
+.title span{
+	width: 100px;
+	color: rgba(229, 77, 38, 1);
+	font-size: 1.125em;
+	background-color: rgba(254, 221, 85, 1);
+	float: left;
+}
+.basecInfo .am-table tr td{
+	padding: 0.7rem 0rem !important;
+	width: 25%;
+}
+.basecInfo .am-table tr:last-child{
+	background-color: rgba(42, 202, 119, 0.5);
+    color: rgba(42, 202, 119, 1) !important;
+}
+.timeAxis table tr td:last-child{
+	text-align: left;
+}
+
+.skill, .timeAxis{
+	margin-top: 120px;
+}
+.skill table tr td:first-child{
+	width: 25%;
+}
+.skill table tr td:last-child{
+	width: 75%;
+}
+.am-progress{
+    background-color: rgba(245, 249, 244, 0.23) !important;
+}
+/*content end*/

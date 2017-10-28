@@ -1,0 +1,287 @@
+package lty.example.calculator;
+
+import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.view.Window;
+import android.view.WindowManager;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
+
+public class MainActivity extends ActionBarActivity implements OnClickListener {
+	// 初始化显示屏
+	EditText editText1;
+	// 初始化按钮
+	Button btn_clear;
+	Button btn_del;
+	Button btn_7;
+	Button btn_8;
+	Button btn_9;
+	Button btn_divide;
+	Button btn_4;
+	Button btn_5;
+	Button btn_6;
+	Button btn_multiply;
+	Button btn_1;
+	Button btn_2;
+	Button btn_3;
+	Button btn_reduce;
+	Button btn_genhao;
+	Button btn_0;
+	Button btn_point;
+	Button btn_add;
+	Button btn_equal;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		// 去掉状态栏
+		this.requestWindowFeature(Window.FEATURE_NO_TITLE);
+		// 隐藏状态栏
+		this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+				WindowManager.LayoutParams.FLAG_FULLSCREEN);
+		setContentView(R.layout.activity_main);
+
+		// 实例化显示屏
+		editText1 = (EditText) findViewById(R.id.editText1);
+		// 实例化按钮
+		btn_clear = (Button) findViewById(R.id.btn_clear);
+		btn_del = (Button) findViewById(R.id.btn_del);
+		btn_7 = (Button) findViewById(R.id.btn_7);
+		btn_8 = (Button) findViewById(R.id.btn_8);
+		btn_9 = (Button) findViewById(R.id.btn_9);
+		btn_divide = (Button) findViewById(R.id.btn_divide);
+		btn_4 = (Button) findViewById(R.id.btn_4);
+		btn_5 = (Button) findViewById(R.id.btn_5);
+		btn_6 = (Button) findViewById(R.id.btn_6);
+		btn_multiply = (Button) findViewById(R.id.btn_multiply);
+		btn_1 = (Button) findViewById(R.id.btn_1);
+		btn_2 = (Button) findViewById(R.id.btn_2);
+		btn_3 = (Button) findViewById(R.id.btn_3);
+		btn_reduce = (Button) findViewById(R.id.btn_reduce);
+		btn_genhao = (Button) findViewById(R.id.btn_genhao);
+		btn_0 = (Button) findViewById(R.id.btn_0);
+		btn_point = (Button) findViewById(R.id.btn_point);
+		btn_add = (Button) findViewById(R.id.btn_add);
+		btn_equal = (Button) findViewById(R.id.btn_equal);
+		
+		//添加点击
+		btn_clear.setOnClickListener(this);
+		btn_del.setOnClickListener(this);
+		btn_7.setOnClickListener(this);
+		btn_8.setOnClickListener(this);
+		btn_9.setOnClickListener(this);
+		btn_divide.setOnClickListener(this);
+		btn_4.setOnClickListener(this);
+		btn_5.setOnClickListener(this);
+		btn_6.setOnClickListener(this);
+		btn_multiply.setOnClickListener(this);
+		btn_1.setOnClickListener(this);
+		btn_2.setOnClickListener(this);
+		btn_3.setOnClickListener(this);
+		btn_reduce.setOnClickListener(this);
+		btn_genhao.setOnClickListener(this);
+		btn_0.setOnClickListener(this);
+		btn_point.setOnClickListener(this);
+		btn_add.setOnClickListener(this);
+		btn_equal.setOnClickListener(this);
+
+	}
+	
+	//设置清屏标志
+	boolean clearFlag = false;
+	@Override
+	public void onClick(View v) {
+		// 获取显示屏的当前文内容
+		String str = editText1.getText().toString();
+		switch (v.getId()) {
+		// 清除按钮
+		case R.id.btn_clear:
+			editText1.setText("");
+			break;
+		// 删除按钮
+		case R.id.btn_del:
+			if (str.length() > 0) {
+				editText1.setText(str.substring(0, str.length() - 1));
+			}
+			break;
+		// 数字键按钮
+		case R.id.btn_0:
+		case R.id.btn_1:
+		case R.id.btn_2:
+		case R.id.btn_3:
+		case R.id.btn_4:
+		case R.id.btn_5:
+		case R.id.btn_6:
+		case R.id.btn_7:
+		case R.id.btn_8:
+		case R.id.btn_9:
+			if(clearFlag){
+				str = "";
+				clearFlag = false;
+			}
+			editText1.setText(str + ((Button) v).getText());
+			break;
+
+		case R.id.btn_point:
+			if(str.length() == 0 || str.substring(str.length()-1).equals("+") || str.substring(str.length()-1).equals("-") || str.substring(str.length()-1).equals("×") || str.substring(str.length()-1).equals("÷")){
+				editText1.setText(str + "0.");
+			}else if(str.contains(".")){
+				if(str.contains("+")){//包含操作符+
+					if(str.substring(str.lastIndexOf("+")).contains(".")){
+						editText1.setText(str);
+					}else{
+						editText1.setText(str + ((Button) v).getText());
+					}
+				}else if(str.contains("-")){//包含操作符-
+					if(str.substring(str.lastIndexOf("-")).contains(".")){
+						editText1.setText(str);
+					}else{
+						editText1.setText(str + ((Button) v).getText());
+					}
+				}else if(str.contains("×")){//包含操作符×
+					if(str.substring(str.lastIndexOf("×")).contains(".")){
+						editText1.setText(str);
+					}else{
+						editText1.setText(str + ((Button) v).getText());
+					}
+				}else if(str.contains("÷")){//包含操作符÷
+					if(str.substring(str.lastIndexOf("÷")).contains(".")){
+						editText1.setText(str);
+					}else{
+						editText1.setText(str + ((Button) v).getText());
+					}
+				}
+			}else{
+				editText1.setText(str + ((Button) v).getText());
+			}
+			break;
+		// 操作按钮+-*/
+		case R.id.btn_add:
+		case R.id.btn_reduce:
+		case R.id.btn_multiply:
+		case R.id.btn_divide:
+			if(clearFlag){
+				clearFlag = false;
+			}
+			
+			if(str.length() == 0 && v.getId() == R.id.btn_reduce){
+				editText1.setText("-");
+			}else if(str.length() == 0 && (v.getId() == R.id.btn_add || v.getId() == R.id.btn_multiply || v.getId() == R.id.btn_divide)){
+				editText1.setText("");
+			}else if(str.length() == 1 && str.substring(0,1).equals("-")){
+				editText1.setText(str);
+			}else if(str.length() == 1 && !str.substring(0,1).equals("-")){
+				editText1.setText(str + ((Button) v).getText());
+			}else if(str.length() > 1 && (str.contains("+") || str.substring(1).contains("-") || str.contains("×") || str.contains("÷"))){
+				editText1.setText(str);
+			}else{
+				editText1.setText(str + ((Button) v).getText());
+			}
+			break;
+		// 等号按钮
+		case R.id.btn_equal:
+			// 调用Result()计算结果
+			clearFlag = true;
+			Result(str);
+			break;
+		// 根号或感叹号按钮
+		case R.id.btn_genhao:
+			Toast.makeText(this, "作者：林廷勇\n时间：2016\\04\\08", Toast.LENGTH_SHORT).show();
+		}// switch() end
+	}// onClick end
+
+	// Result()方法 ，参数 :当前是显示屏的内容
+	public void Result(String str) {
+		String a;// 第一个操作数
+		String b;// 第二个操作数
+		String result = null;// 结果
+		if(str.length() > 0){
+			if(!str.substring(0,1).equals("-")){//第一个操作数为正数
+				if (str.contains("+")) {
+					a = str.substring(0, str.indexOf("+"));
+					b = str.substring(str.indexOf("+") + 1, str.length());
+					if(b.length() != 0){
+						result = String.valueOf(Double.parseDouble(a) + Double.parseDouble(b));
+					}else{
+						clearFlag = false;
+						result = str;
+					}
+				} else if (str.contains("-")) {
+					a = str.substring(0, str.indexOf("-"));
+					b = str.substring(str.indexOf("-") + 1, str.length());
+					if(b.length() != 0){
+						result = String.valueOf(Double.parseDouble(a) - Double.parseDouble(b));
+					}else{
+						clearFlag = false;
+						result = str;
+					}
+				} else if (str.contains("×")) {
+					a = str.substring(0, str.indexOf("×"));
+					b = str.substring(str.indexOf("×") + 1, str.length());
+					if(b.length() != 0){
+						result = String.valueOf(Double.parseDouble(a) * Double.parseDouble(b));
+					}else{
+						clearFlag = false;
+						result = str;
+					}
+				} else if (str.contains("÷")) {
+					a = str.substring(0, str.indexOf("÷"));
+					b = str.substring(str.indexOf("÷") + 1, str.length());
+					if(b.length() != 0){
+						result = String.valueOf(Double.parseDouble(a) / Double.parseDouble(b));
+					}else{
+						clearFlag = false;
+						result = str;
+					}
+				} else {
+					result = str;
+				}
+			}else{//第一个操作数为负数
+				if (str.contains("+")) {
+					a = str.substring(1, str.indexOf("+"));
+					b = str.substring(str.indexOf("+") + 1, str.length());
+					if(b.length() != 0){
+						result = String.valueOf(Double.parseDouble(b) - Double.parseDouble(a));
+					}else{
+						clearFlag = false;
+						result = str;
+					}
+				} else if (str.substring(1, str.length()).contains("-")) {
+					a = str.substring(0,str.lastIndexOf("-"));
+					b = str.substring(str.lastIndexOf("-") + 1, str.length());
+					if(b.length() != 0){
+						result =String.valueOf(Double.parseDouble(a) - Double.parseDouble(b));
+					}else{
+						clearFlag = false;
+						result = str;
+					}
+				} else if (str.contains("×")) {
+					a = str.substring(0, str.indexOf("×"));
+					b = str.substring(str.indexOf("×") + 1, str.length());
+					if(b.length() != 0){
+						result = String.valueOf(Double.parseDouble(a) * Double.parseDouble(b));
+					}else{
+						clearFlag = false;
+						result = str;
+					}
+				} else if (str.contains("÷")) {
+					a = str.substring(0, str.indexOf("÷"));
+					b = str.substring(str.indexOf("÷") + 1, str.length());
+					if(b.length() != 0){
+						result = String.valueOf(Double.parseDouble(a) / Double.parseDouble(b));
+					}else{
+						clearFlag = false;
+						result = str;
+					}
+				} else {
+					result = str;
+				}
+			}
+		}
+		editText1.setText(result);
+	}
+
+}

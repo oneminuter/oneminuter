@@ -1,0 +1,223 @@
+
+@media only screen and (max-width: 640px) {
+*{
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	font-family: "微软雅黑";
+}
+a{
+	text-decoration: none;
+}
+body{
+	background-color: #00416F;
+}
+.zkj{
+	width: 95%;
+	height: 100%;
+	margin: 0 auto;
+}
+.tyutLogo{
+	width: 50%;
+	height: auto;
+	margin-top: 5%;
+	margin-left: 45%;
+}
+.tyutLogo img{
+	width: 100%;
+	height: auto;
+}
+.map{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 3%;
+}
+.map img{
+	width: 100%;
+	height: auto;
+}
+.ASC_15{
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+	font-size: 300%;
+	font-weight: bold;
+	color: #9FB7C6;
+	text-align: center;
+	margin-top: 3%;
+}
+.HPBHfont{
+	width: 90%;
+	height: auto;
+	font-size: 10%;
+	margin: 0 auto;
+	text-align: center;
+	color: #9FB7C6;
+}
+.stu_cha{
+	width: 50%;
+	height: auto;
+	font-size: 10%;
+	color: #9FB7C6;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 5%;
+}
+.line{
+	width: 50%;
+	height: 2px;
+	background-color: #9FB7C6;
+	margin: 0 auto;
+	margin-top: 2%;
+}
+.ASC_15_pic{
+	width: 40%;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 3%;
+}
+.ASC_15_pic img{
+	width: 100%;
+	height: auto;
+}
+.more{
+	width:30%;
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+}
+.more span{
+	font-size: 0.8em;
+	color: #9FB7C6;
+}
+/*.morePic{
+	width: 20%;
+	height: auto;
+	max-width: 30%;
+	position: absolute;
+	left: 5%;
+}*/
+.more img{
+	width: 20%;
+	max-width: 25%;
+	height: auto;
+	margin-left: 3%;
+	margin-top: 5%;
+}
+
+}
+
+
+@media only screen and (min-width: 640px) {
+html{
+	max-width:640px;
+	margin: 0 auto;
+}
+*{
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	font-family: "微软雅黑";
+}
+a{
+	text-decoration: none;
+}
+body{
+	background-color: #00416F;
+}
+.zkj{
+	width: 95%;
+	height: 100%;
+	margin: 0 auto;
+}
+.tyutLogo{
+	width: 50%;
+	height: auto;
+	margin-top: 5%;
+	margin-left: 45%;
+}
+.tyutLogo img{
+	width: 100%;
+	height: auto;
+}
+.map{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 3%;
+}
+.map img{
+	width: 100%;
+	height: auto;
+}
+.ASC_15{
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+	font-size: 300%;
+	font-weight: bold;
+	color: #9FB7C6;
+	text-align: center;
+	margin-top: 3%;
+}
+.HPBHfont{
+	width: 90%;
+	height: auto;
+	font-size: 10%;
+	margin: 0 auto;
+	text-align: center;
+	color: #9FB7C6;
+}
+.stu_cha{
+	width: 50%;
+	height: auto;
+	font-size: 10%;
+	color: #9FB7C6;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 5%;
+}
+.line{
+	width: 50%;
+	height: 2px;
+	background-color: #9FB7C6;
+	margin: 0 auto;
+	margin-top: 2%;
+}
+.ASC_15_pic{
+	width: 40%;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 3%;
+}
+.ASC_15_pic img{
+	width: 100%;
+	height: auto;
+}
+.more{
+	width:30%;
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+}
+.more span{
+	font-size: 0.8em;
+	color: #9FB7C6;
+}
+/*.morePic{
+	width: 20%;
+	height: auto;
+	max-width: 30%;
+	position: absolute;
+	left: 5%;
+}*/
+.more img{
+	width: 20%;
+	max-width: 25%;
+	height: auto;
+	margin-left: 3%;
+	margin-top: 5%;
+}
+
+}

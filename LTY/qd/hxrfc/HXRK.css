@@ -1,0 +1,143 @@
+<!--候选人层叠样式-->
+.HXRK{
+	width: 1200px;
+	height: 1961px;
+	height:auto;
+	margin: 0px auto;
+}
+.HXR{
+	width:384px;
+	height:253px;
+	background: url(img/KBKJ.png)no-repeat;
+	margin-bottom: 30px;
+	margin-left: 12px;
+	float: left;
+}
+.XPKB{
+	width:170px;
+	height:1px;
+	margin-bottom: 5px;
+}
+.XP{
+	width: 170px;
+	height:240px;
+	float: left;
+}
+.XM{
+	width: 70px;
+	height:28px;
+	color:#000000;
+	font-size: 13px;
+	font-weight: bolder;
+	float: left;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+.XM span{
+	font-size: 28px;
+	font-weight: bolder;
+}
+.GRSJ{
+	color: #a10606;
+	margin-top: 25px;
+}
+.GRSJ a{
+	text-decoration:none;
+	color: #a10606;
+	display: inline;
+}
+.GRSJ a:hover{
+	color: #a10606;
+	display: inline;
+	text-decoration: underline;
+}
+.RQ{
+	width: 140px;
+	height:20px;
+	color: #000000;
+	font-size: 18px;
+	float: left;
+	margin-left: 55px;
+	margin-top: 25px;
+}
+.XY{
+	width:145px;
+	height:20px;
+    float: left;
+    color: #000000;
+    font-size: 18px;
+    margin-left: 55px;
+    margin-top: 15px;
+}
+.GRMY{
+	width:150px;
+	height:34px;
+	float: left;
+    color: #000000;
+    overflow: hidden;
+    overflow:ellipsis;
+    font-size: 15px;
+    margin-left: 55px;
+    margin-top: 15px;
+    display: block;
+}
+.GRMY a{
+	clear: both;
+	text-decoration: none;
+	color: #000000;
+	overflow: hidden;
+    text-overflow:ellipsis;
+	font-size: 15px;
+}
+.GRWB{
+	width:80px;
+	height:20px;
+	color: #000000;
+	font-size: 13px;
+	margin-top: 10px;
+	margin-left: 45px;
+	float: left;
+}
+.GRWB a{
+	text-decoration: none;
+	color: #000000;
+}
+.GRWB a:hover{
+	text-decoration: underline;
+	color: #000000;
+}
+.WSZQ{
+	width:80px;
+	height:20px;
+	color: #000000;
+	font-size: 13px;
+	margin-top: 10px;
+	margin-left: 45px;
+	float: left;
+}
+.WSZQ a{
+	text-decoration: none;
+	color: #000000;
+}
+.WSZQ a:hover{
+	text-decoration: underline;
+	color: #000000;
+}
+.TouPiao{
+	width:58px;
+	height:35px;
+	float: left;
+	margin-left: 5px;
+	margin-top: -10px;
+}
+.TPDH{
+    width:58px;
+    height:35px;
+    background:url(img/TP1.png);
+    display:block;
+}
+.TPDH:hover{
+    width:58px;
+    height:35px;
+    background:url(img/TP2.png);/*替换的图片地址*/
+    display:block;

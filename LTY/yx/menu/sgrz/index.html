@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="description" content="A simple HTML5 Template">
+<meta name="author" content="dron">
+<meta name="viewport" content="width=device-width, height=device-height, user-scalable=no, initial-scale=1.0, maximum-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<!-- 如果你的网站不想被剥去外衣，往赤裸的身体上贴广告，就加上下面这行代码 -->
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+<link rel="apple-touch-icon" sizes="72x72" href="i/favicon.png">
+<link rel="apple-touch-icon" sizes="114x114" href="i/app-icon72x72@2x.png">
+
+<link rel="alternate icon" type="image/png" href="i/favicon.png">
+<link rel="apple-touch-icon-precomposed" href="i/app-icon72x72@2x.png">
+<!--iOS用rel="apple-touch-icon"增加高光光亮的图标,rel="apple-touch-icon-precomposed"设计原图图标，另，android也能读取该图标。这样就能在用户把网页存为书签时，在手机HOME界面创建应用程序样式的图标。该路径需要注意的就是放到将网站的文档根目录下但不是服务器的文档的根目录。图片尺寸可以设定为57*57（px）或者Retina可以定为114*114（px），ipad尺寸为72*72（px）-->
+
+<link rel="apple-touch-startup-image" media="(device-width: 320px) and (-webkit-device-pixel-ratio: 2)" href="i/startup-640x1096.png">
+<link rel="apple-touch-startup-image" href="i/startup-640x1096.png" />
+<!--启动界面的图片。该路径需要注意的就是放到将网站的文档根目录下但不是服务器的文档的根目录。官方规定启动界面的尺寸必须为 320*640（px），原本以为Retina屏幕可以支持双倍，但是不支持，图片显示不出来。-->
+
+<link rel="stylesheet" href="css/index.css">
+<title>水果忍者</title>
+<!--[if lt IE 9]><script>document.createElement("canvas");</script><![endif]-->
+</head>
+<body>
+<div id="extra"></div>
+
+<canvas id="view" width="640" height="480"></canvas>
+
+<script src="js/all.js"></script>
+</body>
+</html>

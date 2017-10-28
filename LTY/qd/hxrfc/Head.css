@@ -1,0 +1,85 @@
+    .Head{
+		width:1200px;
+		height:103px;
+		position: relative;
+	}
+	.Head-Left{
+		width:657px;
+		height:103px;
+		background: url(img/Head-Left.png)no-repeat ;
+		float: left;
+
+	}
+	.Head-Right{
+		width:519px;
+		height:103px;
+		background: url(img/Head-Right.png)no-repeat;
+		float: right;
+	}
+	.TBHT{
+		min-width:1200px;
+		height:40px;
+		background-color: #333333;
+		float: left;
+		position: absolute;
+	}
+	.TBLOGO{
+		width:60px;
+		height:40px;
+		background: url(img/TBLOGO.png)no-repeat;
+		margin-left: 200px;
+		top: 10px;
+		float: left;
+		margin-top: 10px;
+		display: block;
+	}
+	.Head-font{
+		width:740px;
+		height:40px;
+		color:#f9f1c1;
+		font-size: 14px;
+		font-weight: bold;
+		font-family: 微软雅黑;
+		float: left;
+		padding-top: 10px;
+	}
+	.QZ-font{
+		width:60px;
+		height:40px;
+		float: left;
+		margin-left: 20px;
+	}
+	.QZ-font a{
+		clear: both;
+		text-decoration: none;
+		width:60px;
+		height:40px;
+		float: left;
+	}
+    .QZ-font a:hover{
+		clear: both;
+    	background: #4c4b4b;
+		width:60px;
+		height:30px;
+		float: left;
+	}
+	.TYLGDX{
+		width:90px;
+		height:40px;
+		float: right;
+		margin-left: 20px;
+	}
+	.TYLGDX a{
+		text-decoration: none;
+		width:90px;
+		height:40px;
+		float: right;
+		margin-left: 20px;
+	}
+	.TYLGDX a:hover{
+		text-decoration: underline;
+		width:90px;
+		height:40px;
+		float: right;
+		margin-left: 20px;
+	}

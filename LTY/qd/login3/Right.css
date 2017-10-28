@@ -1,0 +1,132 @@
+<style type="text/css">
+.bj{
+	position: relative;
+}
+.Right-bj{
+	    position: absolute;
+	    top:53px;
+	    right: 122px;
+		background: #1f1f1f;
+		float: left;
+		width:425px;
+		height: 253px;
+	}
+.Rhead{
+	height:39px;
+	width:425px;
+	border-bottom: 1px solid #8c8c8c;
+}
+.LOGIN{
+	width:65px;
+	heigth:39px;
+	margin-left: 5px;
+	margin-top: 5px;
+	font-size: 22px;
+	font-weight: bolder;
+	font-family: Myriad Pro;
+	color: #ffffff;
+}
+.Username-div{
+	width:410px;
+	height:51px;
+	margin-left: 15px;
+	margin-top: 5px;
+}
+.Username-font{
+	height:15px;
+	width:410px;
+    color:#ffffff;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bolder;
+}
+.Input-Username{
+	margin-top: 5px;
+	width:373px;
+	height:32px;
+    background: url(img/Layer21.png);
+    border: 0px;
+    color:#ffffff ;
+    font-weight: bold;
+    font-size: 15px;
+}
+.Password-div{
+	margin-left: 15px;
+	margin-top: 10px;
+	width: 410px;
+	height: 51px;
+}
+.Password-font{
+	width: 410px;
+	height:15px;
+	color:#ffffff;
+	font-size:12px ;
+	font-weight: bolder;
+	font-family: Arial;
+}
+.Input-Password{
+	margin-top: 5px;
+	width: 373px;
+	height:32px;
+	background: url(img/Layer21.png);
+	border: 0px;
+	color:#ffffff ;
+    font-weight: bold;
+    font-size: 15px;
+}
+.foot-div{
+	margin-top: 10px; 
+	margin-left: 15px;             
+ 	width:410px;
+	height:36px;
+}
+.div-font{
+	margin-top: 10px;
+	width:205px;
+	height:36px;
+	float: left;
+}
+.Input-Radio{
+	width:205px;
+	height:20px;
+	color:#8c8c8c;
+	font-size:12px;
+	font-family:Arial;
+}
+.Radio-Remember{
+	font-size: 12px;
+	font-family: Arial;
+}
+.Bcheckbox{
+	width:410px;
+	height:40px;
+	float: left;
+	margin-top: 5px;
+	margin-left: 15px;
+	color:#8c8c8c;
+	font-size: 12px;
+	font-family: AArial;
+}
+.Forgotten{
+	width:205px;
+	height:33px;
+	color: #8c8c8c;
+	font-size: 12px;
+	font-family: Arial;
+}
+.R-SUBMIT{
+	float: left;
+	margin-top: 20px;
+	margin-left: 95px;
+}
+.R-Input-Submit{
+	width:77px;
+	height:31px;
+	border: 0px;
+	color:#ffffff;
+	background: #969797;
+	border-radius: 5px;
+}
+
+
+</style>
