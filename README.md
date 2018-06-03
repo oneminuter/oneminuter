@@ -1,4 +1,4 @@
 # oneminuter
 personal old blog front-end
 
-visited URL:http://oneminuter.com/
+visited URL:http://blog.oneminuter.com/
