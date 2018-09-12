@@ -1,0 +1,160 @@
+﻿::-webkit-scrollbar{
+	width: 10px;
+	height: 10px;
+}
+/*滚动条轨道*/
+::-webkit-scrollbar-track{
+	background-color: rgba(0, 0, 0, 0.2);
+}
+/*滚动条滑块*/
+::-webkit-scrollbar-thumb{
+	background-color:rgba(0, 0, 0, 0.4);
+	border-radius: 13px;
+}
+
+*{
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+	font-family: "microsoft yahei";
+}
+body{
+	min-width: 310px;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.max_width{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+/*content start*/
+.content{
+	width: 100%;
+	min-height: 1000px;
+	display: table;
+}
+
+/*前端块 start*/
+.qd{
+	width: 100%;
+	height: 400px;
+	margin: 0 auto;
+	background-color: #9D9F9E;
+}
+.qd_img{
+	width: auto;
+    height: 240px;
+    margin-top: 80px;
+}
+.qd p:first-child{
+	margin-top: 80px;
+}
+.qd p{
+	color: rgba(255, 255, 255, 0.8);
+	font-size: 0.875em;
+}
+.go_btn{
+	display: inline-block;
+    width: 81px;
+    height: 40px;
+    background-color: rgba(0, 200, 0, 0.6);
+    text-align: center;
+    line-height: 40px;
+    color: rgba(255, 255, 255, 0.8);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.go_btn:hover{
+	background-color: rgba(0, 200, 0, 0.8);
+	border-radius:20px;
+	color: rgba(255, 255, 255, 0.8);
+}
+/*前端块 end*/
+
+/*后台 start*/
+.ht{
+	width: 100%;
+	height: 400px;
+	margin: 0 auto;
+	background-color: rgba(255, 255, 255, 1);
+}
+.ht p:first-child{
+	margin-top: 80px;
+}
+.ht p{
+	color: rgba(0, 0, 0, 0.5);
+	font-size: 0.875em;
+}
+.ht_img{
+	width: 100%;
+	height: auto;
+	margin-top: 80px;
+}
+/*后台 end*/
+
+/*android start*/
+.android{
+	width: 100%;
+	height: 400px;
+	margin: 0 auto;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+.android p:first-child{
+	margin-top: 80px;
+}
+.android p{
+	color: rgba(0, 0, 0, 0.5);
+	font-size: 0.875em;
+}
+.android_img{
+	width: 232px;
+    height: 240px;
+    margin-top: 80px;
+    background-image: url(../img/device.png);
+    background-repeat:repeat-x ;
+    background-size: auto 100%;
+    position: relative;
+}
+.android_img img{
+	width: 94px;
+    height: 166px;
+    position: absolute;
+    left: 11px;
+    top: 35px;
+}
+.android_img img:last-child{
+	width: 94px;
+    height: 167px;
+    position: absolute;
+    left: 127px;
+    top: 35px;
+}
+/*android end*/
+/*content end*/
+
+/*响应式 start*/
+@media only screen and (max-width: 750px){
+	.qd_img{
+		width: 100%;
+		height: auto;
+	}
+}
+
+@media only screen and (max-width: 640px){
+	.qd_img, .ht_img{
+		display: none;
+	}
+	.android_img{
+		display: none;
+	}
+}
+
+/*响应式 end*/
